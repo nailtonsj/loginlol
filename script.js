@@ -1,14 +1,6 @@
 const inputs = document.querySelectorAll(".input");
 const button = document.querySelector(".login__button");
-const play = document.querySelector("#audio");
-const audio = document.querySelector("#musica");
-console.log(audio);
-play.addEventListener("click", function () {
-  console.log("clicou");
-});
-play.addEventListener("click", function () {
-  audio.classList.add("muted");
-});
+
 const handleFocus = ({ target }) => {
   const span = target.previousElementSibling;
 
